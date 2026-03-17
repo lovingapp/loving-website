@@ -178,6 +178,60 @@ footer a {
   margin-left: 20px;
 }
 
+/* Policy Pages */
+.policy-hero {
+  text-align: center;
+  padding: 40px 0 60px 0;
+}
+
+.policy-hero h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.policy-hero small {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.policy-section {
+  margin-bottom: 48px;
+}
+
+.policy-section h2 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: var(--text-primary);
+}
+
+.policy-section h3 {
+  font-size: 18px;
+  margin-top: 28px;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.policy-section p {
+  margin: 0 0 16px 0;
+  line-height: 1.7;
+}
+
+.policy-section ul {
+  margin: 0 0 16px 0;
+  padding-left: 25px;
+}
+
+.policy-section li {
+  margin-bottom: 10px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.policy-section > *:last-child {
+  margin-bottom: 0;
+}
+
 /* Responsive Design */
 @media (max-width: 900px) {
   .hero {
@@ -191,6 +245,14 @@ footer a {
 
   .features {
     grid-template-columns: 1fr;
+  }
+
+  .policy-section {
+    margin-bottom: 40px;
+  }
+
+  .policy-hero h1 {
+    font-size: 32px;
   }
 
 }
